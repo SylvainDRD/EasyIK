@@ -174,6 +174,7 @@ public class EasyIK : MonoBehaviour
                 {
                     break;
                 }
+                distToTarget = Vector3.Distance(jointPositions[jointPositions.Length - 1], ikTarget.position);
             }
         }
         // Apply the pole constraint
